@@ -1,0 +1,12 @@
+{
+	"name": "Disable F12",
+	"version": "1.0",
+	"description": "An extension to disable F12 opening the dev console.",
+	"icons": { "128": "icon128.png" },
+	"content_scripts": [
+		{
+			"matches": ["*://*/*"],
+			"js": ["disablef12.js"]
+		}
+	]
+}
