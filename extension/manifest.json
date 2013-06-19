@@ -1,6 +1,6 @@
 {
 	"name": "Disable F12",
-	"version": "1.0",
+	"version": "1.1",
     "manifest_version": 2,
 	"description": "An extension to disable F12 opening the dev console.",
 	"icons": { "128": "icon128.png" },
